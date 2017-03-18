@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<action>
+  <helper>ldap</helper>
+  <config>check-expiration.ldap.config</config>
+  <conditions>
+    <all>
+      <group>users</group>
+    </all>
+  </conditions>
+</action>

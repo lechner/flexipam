@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<protocol>
+
+  <contact>
+    <all>
+      <include>common-contact.module</include>
+    </all>
+  </contact>
+
+  <engage>
+    <all>
+      <include>common-engage.module</include>
+    </all>
+  </engage>
+
+  <recognize>
+    <any>
+      <include>common-recognize.module</include>
+    </any>
+  </recognize>
+  
+  <admit>
+    <all>
+      <include>common-admit.module</include>
+    </all>
+  </admit>
+  
+  <seat>
+    <all>
+      <include>common-seat.module</include>
+    </all>
+  </seat>
+ 
+  <invoice>
+    <all>
+      <include>common-invoice.module</include>
+    </all>
+  </invoice>
+ 
+</protocol>

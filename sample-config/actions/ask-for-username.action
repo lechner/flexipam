@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<action>
+  <helper>ask</helper>
+  <config>for-username.ask.config</config>
+</action>

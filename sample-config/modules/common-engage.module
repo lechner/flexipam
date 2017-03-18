@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<module>
+  <all>
+
+    <execute>mount-nfs-user-account.action</execute>
+
+  </all>
+</module>

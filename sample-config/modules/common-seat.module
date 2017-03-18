@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<module>
+  <all>
+
+    <execute>mount-personal-volumes.action</execute>
+      
+  </all>
+</module>

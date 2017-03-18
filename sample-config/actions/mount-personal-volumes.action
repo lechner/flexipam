@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<action>
+  <helper>mount</helper>
+  <config>/acct/$(USER)/absent.wallace/flexipam/personal-volumes.mount.config</config>
+  <user>$(USER)</user>
+  <conditions>
+    <any>
+      <all>
+        <group>users</group>
+      </all>
+    </any>
+  </conditions>
+</action>

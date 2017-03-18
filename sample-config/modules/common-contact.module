@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<module>
+  <all>
+
+    <execute>ask-for-username.action</execute>
+
+  </all>
+</module>

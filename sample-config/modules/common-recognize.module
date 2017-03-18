@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<module>
+  <any>
+      
+      <execute>authenticate-via-kerberos.action</execute>
+      <execute>check-nss-password.action</execute>
+      
+  </any>
+</module>

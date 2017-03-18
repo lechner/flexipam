@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<module>
+  <all>
+      
+    <execute>check-nss-expiration.action</execute>
+    <execute>check-ldap-expiration.action</execute>
+      
+  </all>
+</module>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<action>
+  <helper>kerberos</helper>
+  <config>authenticate.kerberos.config</config>
+  <conditions>
+    <all>
+      <group>users</group>
+    </all>
+  </conditions>
+</action>

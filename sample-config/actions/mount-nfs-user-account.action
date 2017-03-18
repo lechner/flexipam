@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<action>
+  <helper>mount</helper>
+  <config>nfs-user-account.mount.config</config>
+  <user>root</user>
+  <conditions>
+    <all>
+      <group>users</group>
+    </all>
+  </conditions>
+</action>
