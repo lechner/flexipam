@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<protocol>
+
+  <stage>
+    <name>contact</name>
+    <all>
+      <include>common-contact.module</include>
+    </all>
+  </stage>
+  
+  <stage>
+    <name>engage</name>
+    <undo>final</undo>
+    <all>
+      <include>common-engage.module</include>
+    </all>
+  </stage>
+
+  <stage>
+    <name>recognize</name>
+    <any>
+      <include>common-recognize.module</include>
+    </any>
+  </stage>
+  
+  <stage>
+    <name>admit"</name>
+    <all>
+      <include>common-admit.module</include>
+    </all>
+  </stage>
+  
+  <stage>
+    <name>seat</name>
+    <all>
+      <include>common-seat.module</include>
+    </all>
+  </stage>
+ 
+  <stage>
+    <name>invoice</name>
+    <undo>now</undo>
+    <all>
+      <include>common-invoice.module</include>
+    </all>
+  </stage>
+ 
+</protocol>
